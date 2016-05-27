@@ -11,6 +11,7 @@
             this.$http.get('../data/guba14.json').then(function (response) {
                 this.namelist = response.data.namelist;
                 this.bracket = response.data.bracket;
+                this.$el.style.display = "block";
             })
         }
     });
