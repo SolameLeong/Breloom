@@ -1,5 +1,4 @@
 (function () {
-    Vue.config.debug = true;
     var main = new Vue({
         el: "#main-container",
         data: {
