@@ -1,8 +1,16 @@
-#title {
-    text-align: center;
+html, body, #main-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
-.field{
+#title {
+    top: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.field {
     position: relative;
     height: 460px;
     width: 900px;
@@ -12,22 +20,23 @@
     top: 100px;
 }
 
-.player{
+.player {
     height: 30px;
     width: 78px;
     position: absolute;
 }
-.block{
+
+.block {
     height: inherit;
     width: 64px;
     background-color: #20DDD7;
     position: absolute;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.line{
+.line {
     height: 2px;
     width: 16px;
     background-color: #20DDD7;
@@ -36,26 +45,31 @@
     top: 0;
     bottom: 0;
 }
-.longer{
+
+.longer {
     width: 40px;
 }
-.num{
+
+.num {
     color: white;
-    font-family: Arial;
+    font-family: Arial, serif;
     font-size: 20px;
     text-align: center;
 }
-.riseTo8{
+
+.riseTo8 {
     height: 35px;
     width: 16px;
     position: absolute;
 }
-.riseTo4{
+
+.riseTo4 {
     height: 100px;
     width: 16px;
     position: absolute;
 }
-.riseTo2{
+
+.riseTo2 {
     height: 208px;
     width: 40px;
     position: absolute;
@@ -63,52 +77,55 @@
     top: 0;
     bottom: 0;
 }
-.battle{
+
+.battle {
     height: inherit;
     width: 2px;
     background-color: #20DDD7;
     position: absolute;
 }
 
-.median{
+.median {
     height: inherit;
     width: 8px;
     background-color: #00ffff;
     position: absolute;
-    margin:auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-.pokeball{
-    width: 120px;
-    height: 120px;
-    border-radius: 99em;
-    border: 7px solid #00ffff;
-    background-color: #00cccc;
-    position: absolute;
-    margin:auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-.inner{
-    width: 25px;
-    height: 25px;
-    border-radius: 99em;
-    border: 12px solid #00ffff;
-    background-color: #00cccc;
-    position: absolute;
-    margin:auto;
+    margin: auto;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
 }
 
-.nameList{
+.pokeball {
+    width: 120px;
+    height: 120px;
+    border-radius: 99em;
+    border: 7px solid #00ffff;
+    background-color: #00cccc;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.inner {
+    width: 25px;
+    height: 25px;
+    border-radius: 99em;
+    border: 12px solid #00ffff;
+    background-color: #00cccc;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.nameList {
     height: 308px;
     width: 280px;
     background-color: #00cccc;
@@ -119,118 +136,152 @@
     right: 0;
     top: 410px;
 }
-table{
+
+table {
     width: inherit;
     height: inherit;
 }
-.name{
+
+.name {
     width: 30%;
 }
-td{
+
+td {
     text-align: center;
     font-family: Arial;
     font-family: 黑体;
     color: white;
 }
 
-
-.locR{
+.locR {
     right: 0;
 }
-.locPlayerL{
+
+.locPlayerL {
     left: 78px;
 }
-.locPlayerR{
+
+.locPlayerR {
     right: 78px;
 }
-.loc8PlayerL{
+
+.loc8PlayerL {
     left: 172px;
 }
-.loc8PlayerR{
+
+.loc8PlayerR {
     right: 172px;
 }
-.loc4PlayerL{
+
+.loc4PlayerL {
     left: 266px;
 }
-.loc4PlayerR{
+
+.loc4PlayerR {
     right: 266px;
 }
-.locTo8L{
+
+.locTo8L {
     left: 156px;
 }
-.locTo8R{
+
+.locTo8R {
     right: 156px;
 }
-.locTo4L{
+
+.locTo4L {
     left: 250px;
 }
-.locTo4R{
+
+.locTo4R {
     right: 250px;
 }
-.locTo2L{
+
+.locTo2L {
     left: 344px;
 }
-.locTo2R{
+
+.locTo2R {
     right: 344px;
 }
-.loc16_1{
+
+.loc16_1 {
     top: 47px;
 }
-.loc16_2{
+
+.loc16_2 {
     top: 80px;
 }
-.loc16_3{
+
+.loc16_3 {
     top: 144px;
 }
-.loc16_4{
+
+.loc16_4 {
     top: 177px;
 }
-.loc16_5{
+
+.loc16_5 {
     bottom: 177px;
 }
-.loc16_6{
+
+.loc16_6 {
     bottom: 144px;
 }
-.loc16_7{
+
+.loc16_7 {
     bottom: 80px;
 }
-.loc16_8{
+
+.loc16_8 {
     bottom: 47px;
 }
-.locTo8_1{
+
+.locTo8_1 {
     top: 61px;
 }
-.locTo8_2{
+
+.locTo8_2 {
     top: 158px;
 }
-.locTo8_3{
+
+.locTo8_3 {
     bottom: 158px;
 }
-.locTo8_4{
+
+.locTo8_4 {
     bottom: 61px;
 }
-.loc8_1{
+
+.loc8_1 {
     top: 64px;
 }
-.loc8_2{
+
+.loc8_2 {
     top: 162px;
 }
-.loc8_3{
+
+.loc8_3 {
     bottom: 162px;
 }
-.loc8_4{
+
+.loc8_4 {
     bottom: 64px;
 }
-.locTo4_1{
+
+.locTo4_1 {
     top: 79px;
 }
-.locTo4_2{
+
+.locTo4_2 {
     bottom: 79px;
 }
-.loc4_1{
+
+.loc4_1 {
     top: 112px;
 }
-.loc4_2{
+
+.loc4_2 {
     bottom: 112px;
 }
 

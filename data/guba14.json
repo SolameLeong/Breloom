@@ -1,0 +1,71 @@
+{
+  "namelist": [
+    {
+      "number": "A1",
+      "name": "2dogegg"
+    },
+    {
+      "number": "A3",
+      "name": "tszhochan"
+    },
+    {
+      "number": "B1",
+      "name": "镜花水月"
+    },
+    {
+      "number": "B3",
+      "name": "SATJS"
+    },
+    {
+      "number": "C3",
+      "name": "sidw"
+    },
+    {
+      "number": "C4",
+      "name": "Ahsna"
+    },
+    {
+      "number": "D4",
+      "name": "John"
+    },
+    {
+      "number": "D5",
+      "name": "あすか"
+    },
+    {
+      "number": "E1",
+      "name": "黑莲"
+    },
+    {
+      "number": "E4",
+      "name": "Mme"
+    },
+    {
+      "number": "F4",
+      "name": "白喵"
+    },
+    {
+      "number": "G3",
+      "name": "Mayo"
+    },
+    {
+      "number": "G4",
+      "name": "SG"
+    },
+    {
+      "number": "H1",
+      "name": "MELT"
+    },
+    {
+      "number": "H4",
+      "name": "红帽"
+    }
+  ],
+  "bracket": [
+    ["H4", "D5", "B3", "E4", "F4", "E1", "G3", "", "B1", "H1", "C3", "A1", "A3", "D4", "C4", "G4"],
+    ["", "", "", "", "", "", "", ""],
+    ["", "", "", ""],
+    ["", ""],
+    [""]
+  ]
+}
